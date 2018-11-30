@@ -5,92 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Joshua Arcega - About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!--Bootstrap CDN links & scripts-->
+
+<!--Font Awesome Icons link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<!--Bootstrap CDN links & scripts-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
-<body>
+
+<body class="bg-light">
+
 <!--Navigation-->
-    <nav class="nav navbar-expand-md navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <span class="navbar-brand">Joshua Arcega</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Joshua Arcega</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>            
-                </ul>
+    
+            <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link active" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
             </div>
-        </div>      
-    </nav>
-    <!--Main Landing Page, full screen w/background color or image-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-7 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
-                <div class="greeting-white">
-                    <h1>Hi, I'm Joshua Arcega</h1>
+        </div>
+    </nav>    
+
+<!--Main Landing Page, full screen w/background color or image-->
+    <div class="container-fluid landing-page">
+        <div class="row h-100 bg-secondary">
+            <div class="col-12">
+                <div class="d-table h-100 w-100">
+                    <div class="d-table-cell align-middle">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-6 col-sm-12 text-center my-auto">
+                                <div class="p-2 text-white">
+                                    <h1>Hi, I'm Joshua Arcega</h1>
+                                </div>
+                                <div class="p-2 text-light"> 
+                                    <h1>a future Web Developer</h1>
+                                </div>
+                            </div>    
+                            
+                            <div class="col-lg-5 col-md-6 col-sm-12 d-none d-md-block">
+                                <img src="https://picsum.photos/450/450/?image=1062" alt="placeholder image for headshot" class="img-fluid rounded-circle">
+                            </div> 
+                        </div>
+                    </div>    
                 </div>
-                <div class="greeting-grey"> 
-                    <h1>a future Web Developer</h1>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-6 col-sm-12 d-flex justify-content-center">
-                <img src="https://picsum.photos/350/350/?image=1062" alt="placeholder image for headshot">
             </div>
         </div>
     </div>
 
     <!--Bio box with image-->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-9 col-sm-12 d-flex align-items-center justify-content-center">
+        <div class="row align-items-center text-center px-3">
+            <div class="col-lg-7 col-md-9 col-sm-12 order-md-1 order-2 py-3 my-3">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae. Magnam eveniet laborum fugit consequuntur veniam adipisci minus officiis mollitia obcaecati soluta non ullam, eaque provident deserunt corrupti saepe repudiandae!
+                    My name is Joshua, and I'm twenty-five years old. I graduated from the University of Georgia in 2015, and began working on my own as a private music teacher. Music runs in my family, and is a lifelong hobby. I started piano and guitar as early in life as possible, and I carry it on through recording and playing in cover bands or at churches.
                 </p>
             </div>
-            <div class="col-lg-5 col-md-3 col-sm-12 d-flex justify-content-center">
-                <img src="https://picsum.photos/250/196/?image=1063" alt="placeholder image for portfolio preview item">
+            <div class="col-lg-5 col-md-3 col-12 order-md-2 order-1 py-3 my-3">
+                <img src="https://picsum.photos/250/250/?image=1063" alt="placeholder image for portfolio preview item" class="img-fluid">
             </div>
         </div>
         <!--Bio box continued-->
-        <div class="row">
-            <div class="col-lg-5 col-md-3 col-sm-12 d-flex justify-content-center">
-                <img src="https://picsum.photos/250/196/?image=1063" alt="placeholder image for portfolio preview item">
+        <div class="row align-items-center text-center px-3">
+            <div class="col-lg-5 col-md-3 col-sm-12 py-3 my-3">
+                <img src="https://picsum.photos/250/250/?image=1064" alt="placeholder image for portfolio preview item" class="img-fluid">
             </div>
-            <div class="col-lg-7 col-md-9 col-sm-12 d-flex align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-9 col-sm-12 py-3 my-3">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae. Magnam eveniet laborum fugit consequuntur veniam adipisci minus officiis mollitia obcaecati soluta non ullam, eaque provident deserunt corrupti saepe repudiandae!
+                    I first became interested in the tech industry after learning the basics of programming from my brother. Another friend offered to teach me simple web development in exchange for guitar lessons, and from there I decided to pursue work in the web development field. My goals include learning a full stack in web development, and gaining as much relevant work experience as possible with large, highly structured companies.
                 </p>
             </div>
         </div>
         <!--Bio box with button link to portfolio-->
-        <div class="row justify-content-center">
-            <div class="col-9 d-flex align-items-center justify-content-center">
+        <div class="row align-items-center text-center px-3">
+            <div class="col-12 py-3 my-3">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, recusandae. Magnam eveniet laborum fugit consequuntur veniam adipisci minus officiis mollitia obcaecati soluta non ullam, eaque provident deserunt corrupti saepe repudiandae!
+                    My experience as a freelance guitar teacher taught me to run my work like a small business. I enjoyed structuring and improving my services to best meet my students' needs, and consistently relied on highly accessible technologies to provide that service. I believe that experience will make me a better developer as I learn to use my customer service skills and resourcefulness to meet employers' needs. I may also pursue freelance web development work in the future. Ultimately, I hope my skills in development will allow me to start my own business in the next 5-15 years. 
                 </p>
-                <a href="portfolio.html" class="btn btn-outline-secondary btn-lg">My Work</a>
+                
+            </div>
+        </div>
+        
+        <div class="row align-items-center text-center px-3">
+            <div class="col-12 py-3 my-3">
+                <a href="portfolio.html" class="btn btn-outline-success btn-lg">My Work</a>
             </div>
         </div>
     </div>
 
     <!--Footer w/social links & copyright-->
-    <footer>
+    <footer class="bg-secondary">
         <div class="container">
-            <span class="text-muted">Copyright, Joshua Arcega &copy;</span>
+            <div class="d-flex w-100">
+                <span class="text-light">Copyright, Joshua Arcega &copy;</span>
+
+                <div class="d-inline-block ml-auto">
+                    <span class="social-icons">
+                        <a href="https://github.com/Jayrene1"><i class="fab fa-github"></i></a>
+                    </span>
+                                        
+                    <span class="social-icons">
+                        <a href="https://stackoverflow.com/users/10369241/joshua-arcega"><i class="fab fa-stack-overflow"></i></a>
+                    </span>
+
+                    <span class="social-icons">
+                        <a href="https://www.linkedin.com/in/joshua-arcega-281496174/"><i class="fab fa-linkedin"></i></a>
+                    </span>    
+    
+                    <span class="social-icons">
+                        <a href="https://www.instagram.com/joshua_rene/"><i class="fab fa-instagram"></i></a>
+                    </span>    
+
+                </div>
+            </div>
         </div>
     </footer>
 </body>
